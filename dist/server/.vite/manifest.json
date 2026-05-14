@@ -1,0 +1,162 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "/home/alpha-expert/Downloads/Arvionixa/src/styles.css": {
+    "file": "assets/styles-CxAokPvd.css",
+    "src": "/home/alpha-expert/Downloads/Arvionixa/src/styles.css"
+  },
+  "_createLucideIcon-B8NM0rJ5.js": {
+    "file": "assets/createLucideIcon-B8NM0rJ5.js",
+    "name": "createLucideIcon",
+    "imports": [
+      "_server-xTAsFYYP.js"
+    ]
+  },
+  "_router-DQ5HhCYT.js": {
+    "file": "assets/router-DQ5HhCYT.js",
+    "name": "router",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-xTAsFYYP.js"
+    ],
+    "dynamicImports": [
+      "src/routes/contact.tsx?tsr-split=component",
+      "src/routes/about.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-CxAokPvd.css"
+    ]
+  },
+  "_server-xTAsFYYP.js": {
+    "file": "assets/server-xTAsFYYP.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "_router-DQ5HhCYT.js",
+      "src/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "_site-footer-DTEH1QFf.js": {
+    "file": "assets/site-footer-DTEH1QFf.js",
+    "name": "site-footer",
+    "imports": [
+      "_server-xTAsFYYP.js",
+      "_router-DQ5HhCYT.js"
+    ],
+    "assets": [
+      "assets/logo-CXcJVzYh.png"
+    ]
+  },
+  "_slide-3-B9z_B739.js": {
+    "file": "assets/slide-3-B9z_B739.js",
+    "name": "slide-3",
+    "assets": [
+      "assets/slide-3-BlljdBRi.jpg"
+    ]
+  },
+  "_worker-entry-C93z7r3X.js": {
+    "file": "assets/worker-entry-C93z7r3X.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-xTAsFYYP.js"
+    ]
+  },
+  "src/assets/hero.jpg": {
+    "file": "assets/hero-BUipgDK5.jpg",
+    "src": "src/assets/hero.jpg"
+  },
+  "src/assets/logo.png": {
+    "file": "assets/logo-CXcJVzYh.png",
+    "src": "src/assets/logo.png"
+  },
+  "src/assets/slide-1.jpg": {
+    "file": "assets/slide-1-Cmpfrisd.jpg",
+    "src": "src/assets/slide-1.jpg"
+  },
+  "src/assets/slide-2.jpg": {
+    "file": "assets/slide-2-N7ntNe3o.jpg",
+    "src": "src/assets/slide-2.jpg"
+  },
+  "src/assets/slide-3.jpg": {
+    "file": "assets/slide-3-BlljdBRi.jpg",
+    "src": "src/assets/slide-3.jpg"
+  },
+  "src/assets/slide-4.jpg": {
+    "file": "assets/slide-4-DDKXqkIp.jpg",
+    "src": "src/assets/slide-4.jpg"
+  },
+  "src/routes/about.tsx?tsr-split=component": {
+    "file": "assets/about-BpBJdbTu.js",
+    "name": "about",
+    "src": "src/routes/about.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-xTAsFYYP.js",
+      "_site-footer-DTEH1QFf.js",
+      "_slide-3-B9z_B739.js",
+      "_router-DQ5HhCYT.js"
+    ]
+  },
+  "src/routes/contact.tsx?tsr-split=component": {
+    "file": "assets/contact-MKPN4rfg.js",
+    "name": "contact",
+    "src": "src/routes/contact.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-xTAsFYYP.js",
+      "_site-footer-DTEH1QFf.js",
+      "_createLucideIcon-B8NM0rJ5.js",
+      "_router-DQ5HhCYT.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-Ox82tJft.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-xTAsFYYP.js",
+      "_router-DQ5HhCYT.js",
+      "_site-footer-DTEH1QFf.js",
+      "_slide-3-B9z_B739.js",
+      "_createLucideIcon-B8NM0rJ5.js"
+    ],
+    "assets": [
+      "assets/hero-BUipgDK5.jpg",
+      "assets/slide-1-Cmpfrisd.jpg",
+      "assets/slide-2-N7ntNe3o.jpg",
+      "assets/slide-4-DDKXqkIp.jpg"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-DbbPakCH.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-C93z7r3X.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-CdnqlZ4r.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "server.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-C93z7r3X.js"
+    ]
+  }
+}
