@@ -2,22 +2,22 @@
   "version": 2,
   "builds": [
     {
-      "src": "server/server.js",
-      "use": "@vercel/node"
+      "src": "dist/server/server.js",
+      "use": "@vercel/edge"
     },
     {
-      "src": "client/**/*",
+      "src": "dist/client/(.*)",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/server/server.js"
+      "src": "/assets/(.*)",
+      "dest": "/dist/client/assets/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/client/$1"
+      "dest": "/dist/server/server.js"
     }
   ]
 }
